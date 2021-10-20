@@ -1,6 +1,6 @@
 programa
 {
-	//Ler duas notas do aluno 
+	//Ler duas notas do aluno 
 	//calcular média
 	//<5 perdeu
 	//5>7 recuperação
@@ -16,13 +16,13 @@ programa
 		se(media < 5){
 			escreva("\nMedia: " + media + " - REPROVADO\n")
 		}
-		se(media > 5 e media < 7){
+		senao se(media > 5 e media < 7){
 			escreva("\nMedia: " + media + " - RECUPERAÇÃO\n")
 		}
-		se(media >= 7 e media < 10){
+		senao se(media >= 7 e media < 10){
 			escreva("\nMedia: " + media + " - APROVADO\n")
 		}
-		se(media == 10){
+		senao{
 			escreva("\nMedia: " + media + " - APROVADÍSSIMO\n")
 		}
 	}
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 488; 
+ * @POSICAO-CURSOR = 558; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
